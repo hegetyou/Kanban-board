@@ -1,0 +1,95 @@
+.intro{
+  width: 300px;
+  padding: 12px 10px;
+  background: rgb(228, 191, 238);
+
+  border-radius: 8px;
+}
+
+.intro_inner{
+  display: flex;
+  flex-direction: column;
+
+  font-size: 18px;
+}
+
+.intro_title{
+  text-align: center;
+  color: rgb(12, 15, 17);
+}
+
+.done{
+  text-decoration: line-through;
+}
+
+.btn_edit_del{
+  display: flex;
+}
+
+
+.btn_icon{
+  width: 23px;
+  height: 23px;
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 30px;
+  height: 30px;
+  background: rgb(200, 148, 248);
+  border: 0;
+  border-radius: 7px;
+  margin-left: 5px;
+}
+
+.task{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+
+  padding: 8px;
+  background: #fff;
+  border-radius: 13px;
+}
+
+.task1{
+  width: 100%;
+}
+/* .task_checkbox{
+  display: flex;
+  position: relative;
+  margin-bottom: 12px;
+  width: 100%;
+  padding: 13px;
+  background: #fff;
+  border-radius: 13px;
+} */
+
+.addTask{
+  width: 100%;
+  position: relative;
+}
+
+.todo_input{
+  padding: 13px 44px;
+  opacity: 0.8;
+  border: 0;
+  border-radius: 13px;
+  font-family: 'Mitr', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.btn_add{
+  position: absolute;
+  top: 8px;
+  left: 5px;
+  z-index: 1;
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
